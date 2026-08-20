@@ -1,0 +1,65 @@
+## .NET / Visual Studio
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.DotSettings.user
+
+## Original binaries
+ori/
+
+## Source assets (not needed in repo)
+logo.jpg
+ScreenShot/
+
+## Build results
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.log
+*.lib
+*.exp
+
+## NuGet
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nupkg
+**/packages/repositories.config
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider / ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.sln.docstates
+
+## Publish output
+*.publish.xml
+PublishScripts/
+
+## Backup & temp
+*.bak
+*.tmp
+*.temp
